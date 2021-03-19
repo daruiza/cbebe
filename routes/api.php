@@ -18,3 +18,5 @@ use App\Http\Controllers\Api\BebeController;
 
 Route::get('bebes', 'Api\BebeController@bebes');
 Route::post('crear_bebe', 'Api\BebeController@crearBebe');
+Route::post('editar_bebe', 'Api\BebeController@editarBebe');
+Route::post('eliminar_bebe', 'Api\BebeController@eliminarBebe');
